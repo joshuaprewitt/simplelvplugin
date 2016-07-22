@@ -1,0 +1,23 @@
+{
+    "buttonIconCls": "lv-plugin-icon",
+   "buttonLabelToken": "simplelvPlugin.pluginTitle",
+    "buttonTooltipToken": "simplelvPlugin.pluginTitle",
+    "orderWeight": 2,
+    "permission": "",
+    "resources": {
+       "*": {
+           "js": [
+               "/packages/local/simplelvplugin/lvplugin.js"
+           ],
+		   "css": [
+               "/packages/local/simplelvplugin/resources/css/lvplugin.css"
+           ]
+       },
+       "en": {
+           "json": [
+               "/packages/local/simplelvplugin/resources/json/locales/en.json"
+           ]
+       }
+    },
+    "routeToken": "simplelvplugin"
+}
