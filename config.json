@@ -1,23 +1,26 @@
 {
-    "buttonIconCls": "lv-plugin-icon",
-   "buttonLabelToken": "simplelvPlugin.pluginTitle",
-    "buttonTooltipToken": "simplelvPlugin.pluginTitle",
-    "orderWeight": 2,
-    "permission": "",
-    "resources": {
-       "*": {
-           "js": [
-               "/packages/local/simplelvplugin/lvplugin.js"
-           ],
-		   "css": [
-               "/packages/local/simplelvplugin/resources/css/lvplugin.css"
-           ]
-       },
-       "en": {
-           "json": [
-               "/packages/local/simplelvplugin/resources/json/locales/en.json"
-           ]
-       }
-    },
-    "routeToken": "simplelvplugin"
+   "authorizationMarker": "/plugins/simplelvplugin/resources/marker.txt",
+   "buttonIconCls": "fa fa-area-chart",
+   "buttonLabelToken": "simplelvplugin.pluginTitle",
+   "buttonTooltipToken": "simplelvplugin.pluginTitle",
+   "iframeResources": {
+      "en": {
+         "json": [
+            "resources/json/locales/en.json"
+         ]
+      }
+   },
+   "iframeSrc": "plugins/simplelvplugin/Main.html",
+   "orderWeight": 2,
+   "permission": "",
+   "resources": {
+      "en": {
+         "json": [
+            "plugins/simplelvplugin/resources/json/locales/en.json"
+         ]
+      }
+   },
+   "routeToken": "simplelvplugin",
+   "titleToken": "simplelvplugin.pluginTitle",
+   "waitUntilLaunched": false
 }
